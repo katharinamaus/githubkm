@@ -76,7 +76,7 @@ def get_filters():
         while True:
             day = input('Which day? Please state "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", or "Sunday".\n').lower()
             if day not in day_list:
-                print('Your answer does not correspond to one of the indicated days: "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", or "Sunday". Please state one of the indicated days.')
+                print('Your answer does not correspond to one of the indicated days. Please state one of the indicated days.')
                 continue
             else:
                 month = 'all'
@@ -188,11 +188,11 @@ def trip_duration_stats(df):
 
     # TO DO: display total travel time
     total_travel_time = df['Trip Duration'].sum()
-    print('The total travel time amounts to:', total_travel_time)
+    print('The total travel time is:', total_travel_time)
 
     # TO DO: display mean travel time
     mean_travel_time = df['Trip Duration'].mean()
-    print('The mean travel time amounts to:', mean_travel_time)
+    print('The mean travel time is:', mean_travel_time)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
@@ -214,7 +214,7 @@ def user_stats(df, city):
         print('There are no gender data for Washington.')    
     else:
         counts_gender = df['Gender'].value_counts()
-        print('The count of gender amounts to:\n', counts_gender)   
+        print('The count of gender is:\n', counts_gender)
 
     # TO DO: Display earliest, most recent, and most common year of birth
     if city == 'washington':
