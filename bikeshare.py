@@ -76,7 +76,7 @@ def get_filters():
         while True:
             day = input('Which day? Please state "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", or "Sunday".\n').lower()
             if day not in day_list:
-                print('Your answer does not correspond to one of the indicated days: "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", or "Sunday". Please state one of the indicated days.')
+                print('Your answer does not correspond to one of the indicated days. Please state one of the indicated days.')
                 continue
             else:
                 month = 'all'
