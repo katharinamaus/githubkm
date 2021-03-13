@@ -26,3 +26,9 @@ The following sources were used:
  **3:** https://stackoverflow.com/questions/43983622/remove-unnamed-columns-in-pandas-dataframe  
  **4:** https://stackoverflow.com/questions/20490274/how-to-reset-index-in-a-pandas-dataframe
  **5:** https://stackoverflow.com/questions/50848454/pulling-most-frequent-combination-from-csv-columns  
+
+### Updates and Revisions
+
+The project started in March 2021 considering referring to data files Chicago.csv, New York City.csv and Washington.csv. Currently, no updates have been made.
+
+ An extension of the project to include data from other cities is being considered.
